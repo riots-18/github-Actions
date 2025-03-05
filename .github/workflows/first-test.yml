@@ -13,6 +13,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: SecondJOb
-        runs: echo "this is from second job"
+        run: echo "this is from second job"
       - name: Name on Second job
-        runs: echo "Charan from Second job"
+        run: echo "Charan from Second job"

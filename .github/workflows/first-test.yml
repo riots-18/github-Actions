@@ -8,3 +8,11 @@ jobs:
         run: echo "hello charan"
       - name: lastname
         run: echo "hello charan nk"
+
+  second-job:
+    runs-on: ubuntu-latest:
+    steps:
+      - name: SecondJOb
+        runs: echo "this is from second job"
+      - name: Name on Second job
+        runs: echo "Charan from Second job"
